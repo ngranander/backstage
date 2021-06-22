@@ -1,5 +1,34 @@
 # @backstage/create-app
 
+## 1.0.0
+
+### Patch Changes
+
+- 48c9fcd33: Migrated to use the new `@backstage/core-*` packages rather than `@backstage/core`.
+- Updated dependencies
+  - @backstage/plugin-catalog@0.6.4
+  - @backstage/plugin-search@0.4.1
+  - @backstage/plugin-explore@0.3.7
+  - @backstage/plugin-scaffolder@0.9.9
+  - @backstage/catalog-client@0.3.14
+  - @backstage/cli@0.7.2
+  - @backstage/plugin-api-docs@0.6.0
+  - @backstage/plugin-catalog-backend@0.10.4
+  - @backstage/plugin-techdocs@0.9.7
+  - @backstage/plugin-auth-backend@0.3.14
+  - @backstage/plugin-scaffolder-backend@0.12.3
+  - @backstage/plugin-search-backend-node@0.2.2
+  - @backstage/catalog-model@0.8.4
+  - @backstage/integration-react@0.1.4
+  - @backstage/test-utils@0.1.14
+  - @backstage/plugin-catalog-import@0.5.11
+  - @backstage/plugin-github-actions@0.4.10
+  - @backstage/plugin-lighthouse@0.2.18
+  - @backstage/plugin-tech-radar@0.4.1
+  - @backstage/plugin-user-settings@0.2.12
+  - @backstage/plugin-techdocs-backend@0.8.4
+  - @backstage/core@0.7.14
+
 ## 0.3.27
 
 ### Patch Changes
