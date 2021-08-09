@@ -46,6 +46,7 @@ import { SearchPage } from '@backstage/plugin-search';
 import { TechRadarPage } from '@backstage/plugin-tech-radar';
 import { TechdocsPage } from '@backstage/plugin-techdocs';
 import { UserSettingsPage } from '@backstage/plugin-user-settings';
+import { XcmetricsPage } from '@backstage/plugin-xcmetrics';
 import AlarmIcon from '@material-ui/icons/Alarm';
 import React from 'react';
 import { hot } from 'react-hot-loader/root';
@@ -133,6 +134,7 @@ const routes = (
       element={<CostInsightsLabelDataflowInstructionsPage />}
     />
     <Route path="/settings" element={<UserSettingsPage />} />
+    <Route path="/xcmetrics" element={<XcmetricsPage />} />
   </FlatRoutes>
 );
 

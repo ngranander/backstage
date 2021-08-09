@@ -91,6 +91,9 @@ proxy:
     allowedHeaders: ['Authorization']
     headers:
       Authorization: ${ILERT_AUTH_HEADER}
+  
+  '/xcmetrics':
+    target: http://xcmetrics-server.services.gew1.spotify.net:8080/v1
 
 organization:
   name: My Company
